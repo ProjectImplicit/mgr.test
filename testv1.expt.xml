@@ -1,0 +1,12 @@
+<Study id="mgr.test.0.1" datagroup="std" hoatLinkRedirect="/implicit/">
+
+	<Definitions>
+        <Task id="mgrtest" file="mgr.js">/common/all/js/quest/0.1/dist/manager.jsp</Task>
+        <Task id="dummy">mgr.js</Task>
+	</Definitions>
+
+	<Map>
+		<Task id="mgrtest"/>
+		<Task id="dummy"/>		
+	</Map>
+</Study>
