@@ -22,9 +22,9 @@ define(['managerAPI'], function(Manager){
 
     API.addSequence([
         {inherit:'allowRefresh'},
+        {inherit:'quest', title: 'quest'},
         {inherit:'pip3', title:'pip 0.3'},
         {inherit:'pip4', title:'pip 0.4'},
-        {inheirt:'quest', title: 'quest'}
     ]);
 
     return API.script;
